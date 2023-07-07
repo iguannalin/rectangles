@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     rect.addEventListener('click', () => {
       container.removeChild(rect);
       clearInterval(createRect);
-      interval -= 50;
+      interval -= 10;
       setInterval(createRect, interval);
       return;
     });
